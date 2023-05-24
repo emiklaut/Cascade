@@ -9,19 +9,19 @@
 ## Allgemeine Informationen
 
 > Im Object-Relational Mapping (ORM)-Framework, gibt es die Konzepte des "Cascade Persist" und "Cascade Remove".
-> Beschreiben das Verhalten beim Speichern und Löschen von Objekten in einer Datenbank
+> Sie Beschreiben das Verhalten beim Speichern und Löschen von Objekten in einer Datenbank
 
 ---
 
 ## Persist
 
-> Cascade Persist" bezieht sich auf die automatische Speicherung von verknüpften Objekten, wenn das Hauptobjekt persistiert wird.
+> "Cascade Persist" bezieht sich auf die automatische Speicherung von verknüpften Objekten, wenn das Hauptobjekt persistiert wird.
 
 ---
 
 ## Remove
 
-> Wenn ein Hauptobjekt gelöscht wird, kann man Cascade konfigurieren, um verknüfte Objekte ebenfalls zu entfernen, ohne dass man sie explizit löschen muss.
+> Wenn ein Hauptobjekt gelöscht wird, kann man Cascade konfigurieren, um verknüpfte Objekte ebenfalls zu entfernen, ohne dass man sie explizit löschen muss.
 
 --
 
