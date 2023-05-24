@@ -55,17 +55,15 @@ Nachteile:
 ## Integration in Php
 
 
-Integration in Entity Cart.php
+Integration in Entity Cart.php:
 > #[ORM\OneToMany (mappedy: 'cart', targetEntity: CartProduct::class, cascade: ["persist", "remove"], orphanremoval: true)]
 
-Integration in Enitity CartProduct.php
-#[ORM\ManyToOne (inversedBy: 'cartProducts") ]
+Integration in Enitity CartProduct.php: 
+> #[ORM\ManyToOne (inversedBy: 'cartProducts") ]
 #[ORM\ JoinColumn (nullable: false, onDelete: 'CASCADE") ]
 private ?Product $product = nUll;
-
 #[ORM\Column]
 private ?int Samount = null;
-
 #[ORM\ ManyToOne (inversedBy: 'cartProducts') ]
 #[ORM\ JoinColumn (nullable: false, onDelete:
 'CASCADE') ]
