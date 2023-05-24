@@ -25,40 +25,31 @@
 
 --
 
-## Unordered Lists
-
-* a
-* b
-  * 1
-  * 2
-    * I
-* c
+## Vorteile & Nachteile
 
 ---
 
-## Ordered Lists
 
-automatic numbering
-
-1. a
-1. b
-    1. 1
-    1. 2
-1. c
-
----
-
-## Ordered Lists
-
-custom numbering
-
-1. a  
-2. b  
-    2.1. 1  
-    2.2. 2  
-3. c
+## Persist
+Vorteile:
+> Einfache und effiziente Speicherung
+> Verbesserte Code-Lesbarkeit
+> Vermeidung von Redundanz
+Nachteile:
+> Performanceauswirkungen
+> Komplexität der Datenmanipulation
 
 ---
+
+## Remove
+ Vorteile:
+> Datenintegrität
+> Vereinfachte Datenlöschung
+
+Nachteile:
+> Unerwarteter Datenverlust
+> Datenintegritätsprobleme
+--
 
 ## Definition Lists
 
