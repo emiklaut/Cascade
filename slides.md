@@ -36,7 +36,7 @@ Vorteile:
 
 > Verbesserte Code-Lesbarkeit.
 
-> Vermeidung von Redundanz.
+> Zeitersparnis
 
 Nachteile:
 > Performanceauswirkungen.
