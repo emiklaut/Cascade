@@ -21,7 +21,7 @@
 
 ## Remove
 
-> Wenn ein Hauptobjekt gelöscht wird, können Sie die Cascade-Entfernung konfigurieren, um sicherzustellen, dass die assoziierten Objekte ebenfalls entfernt werden, ohne dass Sie sie explizit löschen müssen.
+> Wenn ein Hauptobjekt gelöscht wird, kann man Cascade konfigurieren, um verknüfte Objekte ebenfalls zu entfernen, ohne dass man sie explizit löschen muss.
 
 --
 
@@ -32,24 +32,24 @@
 
 ## Persist
 Vorteile:
-> Einfache und effiziente Speicherung
-> Verbesserte Code-Lesbarkeit
-> Vermeidung von Redundanz
+> Einfache und effiziente Speicherung.
+> Verbesserte Code-Lesbarkeit.
+> Vermeidung von Redundanz.
 
 Nachteile:
-> Performanceauswirkungen
-> Komplexität der Datenmanipulation
+> Performanceauswirkungen.
+> Komplexität der Datenmanipulation.
 
 ---
 
 ## Remove
  Vorteile:
-> Datenintegrität
-> Vereinfachte Datenlöschung
+> Datenintegrität.
+> Vereinfachte Datenlöschung.
 
 Nachteile:
-> Unerwarteter Datenverlust
-> Datenintegritätsprobleme
+> Unerwarteter Datenverlust.
+> Datenintegritätsprobleme.
 --
 
 ## Integration in Php
