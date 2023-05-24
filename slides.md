@@ -1,32 +1,29 @@
-# Demo
+# Cascade Presentation
 
 --
 
-## Typography
+## Was ist Cascade Persist & Remove
 
 ---
 
-## Quotes
+## Allgemeine Informationen
 
-> Quotes are ~~hard~~ easy
-> to write - but you can use `code`
+> Im Object-Relational Mapping (ORM)-Framework, gibt es die Konzepte des "Cascade Persist" und "Cascade Remove".
+> Beschreiben das Verhalten beim Speichern und Löschen von Objekten in einer Datenbank
 
 ---
 
-## Styles
+## Persist
 
-You can freely mix **bold**, *italics*, `code` and normal styles
+> Cascade Persist" bezieht sich auf die automatische Speicherung von verknüpften Objekten, wenn das Hauptobjekt persistiert wird.
 
-* normal
-* **bold**
-* *italics*
-* `code`
+---
+
+## Remove
+
+> Wenn ein Hauptobjekt gelöscht wird, können Sie die Cascade-Entfernung konfigurieren, um sicherzustellen, dass die assoziierten Objekte ebenfalls entfernt werden, ohne dass Sie sie explizit löschen müssen.
 
 --
-
-## Lists
-
----
 
 ## Unordered Lists
 
