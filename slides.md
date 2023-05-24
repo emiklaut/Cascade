@@ -35,6 +35,7 @@ Vorteile:
 > Einfache und effiziente Speicherung
 > Verbesserte Code-Lesbarkeit
 > Vermeidung von Redundanz
+
 Nachteile:
 > Performanceauswirkungen
 > Komplexität der Datenmanipulation
@@ -45,6 +46,7 @@ Nachteile:
  Vorteile:
 > Datenintegrität
 > Vereinfachte Datenlöschung
+
 Nachteile:
 > Unerwarteter Datenverlust
 > Datenintegritätsprobleme
